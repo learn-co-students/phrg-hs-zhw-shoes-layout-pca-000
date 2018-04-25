@@ -13,3 +13,5 @@ languages:
 type:
   - lab
 level: 2
+
+parent_template: git@github.com:learn-co-curriculum/hs-zhw-shoes-layout.git
