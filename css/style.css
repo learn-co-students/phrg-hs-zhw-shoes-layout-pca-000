@@ -3,7 +3,7 @@
 @import url(http://fonts.googleapis.com/css?family=Clicker+Script); /* font-family: 'Clicker Script', cursive; */
 
 /* scale all images, and media to accomodate responsive layout. */
-img, video, audio, iframe, table, form { 
+img, video, audio, iframe, table, form {
 	width:100%; /* IE */
 	max-width: 100%; /* FF, Safari, Chrome */
 }
@@ -264,6 +264,46 @@ iframe {
 		text-decoration: underline;
 	}
 
+/********** Columns **********/
+
+	div .summer {
+	width: 55%;
+	min-height: 50px;
+	float: left;
+	}
+
+	div .shoe-archive {
+	display: inline-block;
+	width: 36%;
+	margin: 0px 0px 15px 15px;
+	}
+
+	div .lady-b {
+	display: inline-block;
+	width: 33%;
+	}
+
+	div .skate-s {
+	display: inline-block;
+	width: 33%;
+	}
+
+	div .heels {
+	display: inline-block;
+	width: 33%;
+	}
+
+	.border_right {
+	display: inline-block;
+	align-content: start
+	}
+
+	.test {
+	display: inline-block;
+	margin: auto;
+	}
+
+
 /********** Details **********/
 
 #details {
@@ -301,5 +341,4 @@ footer {
 		color: #555;
 		text-decoration: underline;
 	}
-
 /* code examples copyright Jonathan Grover 2012 */
