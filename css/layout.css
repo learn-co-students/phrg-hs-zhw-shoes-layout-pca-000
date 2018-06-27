@@ -24,4 +24,32 @@
 
 /* Posititoning Classes */
 
+#featured-brands {
+  float: left;
+  width: 66%;
+  margin-left: 0;
+}
 
+.col {
+  float: left;
+  width: 32%;
+}
+
+section.first {
+  clear: both;
+  margin-left: 0;
+}
+
+.buffer {
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
+
+div.first {
+  clear: both;
+  margin-left: 0;
+}
+
+.top {
+  margin-bottom: 2%;
+}
